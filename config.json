@@ -1,0 +1,15 @@
+{
+    "greeting_template": "Good {time}, {user}. You have arrived at the DARA Command Interface. Stardate {stardate}. Earth date: {date}, {clock}. {weather} {status}",
+    "weather_zip": "97045",
+    "status_frequency": "login_only",
+    "voice_engine": "gtts",
+    "startup_chime": false,
+    "chime_path": "",
+    "enabled_modules": {
+        "weather": true,
+        "system_checks": true,
+        "stardate": true,
+        "tasks": false,
+        "calendar": false
+    }
+}
